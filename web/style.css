@@ -1,0 +1,37 @@
+#footer
+{
+	height: 30px;
+    padding-bottom: 10px;
+    text-align: left;
+    position: fixed;
+    width: 100%;
+    font-weight: bold;
+    /*display: inline-block;*/
+    display: flex;
+   /* flex-direction: row;*/
+}
+
+#textspot
+{
+	width: 100%;
+	/*box-sizing: border-box;*/
+	/*position: relative;*/
+}
+textarea {
+	border-style: none;
+	border-color: Transparent;
+	overflow: auto;
+	resize: none;
+	outline: none;
+	width: 100%;
+	height: calc(100% - 50px);
+	background-color: #000a12;
+	color: #ffffff;
+	font-family: 'Red Hat Mono', monospace;
+}
+
+body {
+	color: #ffffff;
+	background-color: #000a12;
+	font-family: 'Red Hat Mono', monospace;
+}
