@@ -25,7 +25,7 @@ func main() {
 }
 func getCurrentUrl(this js.Value, args []js.Value) interface{} {
 	//fmt.Println("Getting url...")
-	host = args[0].String()
+	host = args[0].String() + args[2].String()
 	hash = strings.ReplaceAll(args[1].String(), "#", "")
 	//encoded := strings.ReplaceAll(args[0].String(), "#", "")
 

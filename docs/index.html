@@ -12,7 +12,7 @@
 			const go = new Go();
 			WebAssembly.instantiateStreaming(fetch("turtlepaste.wasm"), go.importObject).then((result) => {
 		    	go.run(result.instance);
-        url(window.location.origin, window.location.hash)
+        url(window.location.origin, window.location.hash, window.location.pathname)
 			});
       
 		</script>
